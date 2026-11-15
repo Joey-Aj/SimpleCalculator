@@ -4,10 +4,16 @@
 int main() {
     double a, b;
 
+    std::cout << "Welcome to SimpleCalculator!" << std::endl;
+
     std::cout << "Enter two numbers: ";
     std::cin >> a >> b;
 
+<<<<<<< HEAD
     std::cout << "Addition result = " << a + b << std::endl;
+=======
+    std::cout << "The sum of the two numbers is: " << a + b << std::endl;
+>>>>>>> feature
     std::cout << "Difference = " << a - b << std::endl;
     std::cout << "Product = " << a * b << std::endl;
 
