@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 
 int main() {
     double a, b;
@@ -6,7 +7,7 @@ int main() {
     std::cout << "Enter two numbers: ";
     std::cin >> a >> b;
 
-    std::cout << "Sum = " << a + b << std::endl;
+    std::cout << "Addition result = " << a + b << std::endl;
     std::cout << "Difference = " << a - b << std::endl;
     std::cout << "Product = " << a * b << std::endl;
 
@@ -15,6 +16,8 @@ int main() {
     } else {
         std::cout << "Division by zero is not allowed." << std::endl;
     }
+
+    std::cout << "Power = " << std::pow(a, b) << std::endl;
 
     return 0;
 }
